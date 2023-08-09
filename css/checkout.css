@@ -111,7 +111,6 @@ button[type="submit"]:hover {
     float: top;
  }
 
- /* Update the existing CSS */
 .display-order {
     float: right;
     margin-right: 350px;
@@ -137,7 +136,6 @@ button[type="submit"]:hover {
     color: rgb(9, 93, 9);
   }
   
-  /* Add some space between the form and display-order */
   .checkout-form {
     margin-bottom: 20px;
   }
