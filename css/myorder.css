@@ -1,18 +1,15 @@
-/* Reset some default styling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
 }
 
-/* Order table styles */
 .order-table {
     max-width: 800px;
     margin: 50px auto;
@@ -53,7 +50,6 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Link styles */
 a {
     color: #3498db;
     text-decoration: none;

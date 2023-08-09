@@ -6,7 +6,7 @@
   padding: 20px;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 100px); /* Adjust the value as needed */
+    height: calc(100vh - 100px); 
     overflow-y: auto;
   }
 
