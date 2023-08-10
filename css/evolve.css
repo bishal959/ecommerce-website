@@ -127,11 +127,28 @@ a{
 	color: white;
 }
 
- .para{
- 	background-color: silver;
- 	padding: 10px;
- 	font-size: 20px;
- }
+.para {
+   background-color: #9e9e9e;
+   padding: 70px;
+   text-align: center;
+}
+
+.para h1 {
+   font-size: 40px;
+   color: rgb(2, 2, 2);
+   margin-bottom: 20px;
+   font-family: sans-serif;
+}
+
+.para p {
+   font-size: 18px;
+   color: #000000;
+   line-height: 1.6;
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ 
  .flex-container {
    display: flex;
    flex-wrap: wrap;

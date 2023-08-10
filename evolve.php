@@ -36,7 +36,8 @@
     <p>       
           <i>
             Evolve Electronics is the leading online electronics marketplace in Nepal, currently listing tens of thousands of electronics product for sale all over Kathmandu, Pokhara and rest the country.
-            If you are looking to buy any electronics items from any part of Nepal, you can find them all on our website. 
+            If you are looking to buy any electronics items from any part of Nepal, you can find them all on our website. <br>
+            We pride ourselves on our commitment to customer satisfaction and our competitive pricing. Evolve Electronics is your ultimate online destination for all things electronic. We offer a wide range of high-quality gadgets and devices, from smartphones to laptops, that cater to both tech enthusiasts and everyday users. Our user-friendly website makes shopping a breeze, with detailed product info and easy checkout. We're dedicated to providing top-notch customer service, ensuring a smooth experience from start to delivery. <br>Embrace the future of tech shopping with Evolve Electronics!
           </i>
         </p>
     </div>

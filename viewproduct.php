@@ -1,6 +1,9 @@
 <?php
 include 'adminpanel.php'; 
 
+$removeForeignKeyQuery = "ALTER TABLE cart DROP FOREIGN KEY order_prod";
+$conn->exec($removeForeignKeyQuery);
+
 $createTmpTableQuery = "CREATE TABLE IF NOT EXISTS tmp_products (id INT AUTO_INCREMENT PRIMARY KEY, product_id_old INT)";
 $conn->exec($createTmpTableQuery);
 
@@ -18,6 +21,9 @@ while ($row = $statement->fetch(PDO::FETCH_ASSOC)) {
 
     $index++;
 }
+
+$addForeignKeyQuery = "ALTER TABLE cart ADD CONSTRAINT order_prod FOREIGN KEY (product) REFERENCES products (product_id)";
+$conn->exec($addForeignKeyQuery);
 
 $dropTmpTableQuery = "DROP TABLE tmp_products";
 $conn->exec($dropTmpTableQuery);

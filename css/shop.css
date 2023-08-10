@@ -10,8 +10,8 @@
     border: solid silver 2px;
     background-color: white;
     border-radius: 10px;
-    width: 280px;
-    height: 400px;
+    width: 300px;
+    height: 430px;
     margin: 5px;
     text-align: center;
     font-size: 18px;
@@ -39,12 +39,15 @@
     font-size: 18px;
     padding: 18px;
     border: none;
-    margin-top: 55px;
+    margin-top: 15px; 
     color: white;
     background-color: black;
+    display: inline-block;
     border-radius: 15px;
     cursor: pointer;
-  }
+    vertical-align: middle;
+}
+
   
   button:hover {
     background-color: rgb(145, 145, 145);

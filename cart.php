@@ -109,7 +109,6 @@ $totalPrice = 0; // Initialize total price variable
                             
                             <td>
                                 <a href='deletecart.php?id=<?php echo $cart_item['order_id']; ?>'>Delete</a>
-                                <a href='checkout.php'>Buy now</a>
                             </td>
                         </tr>
                     <?php

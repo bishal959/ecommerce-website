@@ -29,7 +29,7 @@
                 echo '<button class="read-more-button" onclick="toggleDescription(' . $item['product_id'] . ')">&nbsp;Read More</button>';
                 echo '<div class="buttons">';
                 echo '<button class="add-to-cart-button"><a  href="cart.php?cart=' . $item['product_id'] . '">Add to Cart</a></button>';
-                echo '<button class="buy-now-button"><a href="checkout.php?product=' . $item['product_id'] . '&price=' . $item['price'] . '">Buy Now</a></button>';
+                echo '<button class="buy-now-button"><a href="checkout.php?t=' . $item['product_id'] . '&y=' . $item['price'] . '">Buy Now</a></button>';
                 echo '</div>';
                 echo '</div>';
                 echo '</div>';

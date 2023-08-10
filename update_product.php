@@ -13,14 +13,24 @@ $product = $stmt->fetch(PDO::FETCH_ASSOC);
 if (!$product) {
     echo 'Product not found.';
 } else {
+    // Fetch categories from the database
+    $categoriesQuery = $conn->query("SELECT * FROM category");
+    $categories = $categoriesQuery->fetchAll(PDO::FETCH_ASSOC);
     ?>
     <form action="" class="update" method="POST" enctype="multipart/form-data">
-         <p>Update Product</p>
+        <p>Update Product</p>
         <input type="hidden" name="id" value="<?php echo $product['product_id']; ?>">
         <label for="name">Product Name:</label>
         <input type="text" id="name" name="name" value="<?php echo $product['product_name']; ?>" required><br>
         <label for="category">Category:</label>
-        <input type="text" id="category" name="category" value="<?php echo $product['category']; ?>" required><br>
+        <select id="category" name="category" required>
+            <?php foreach ($categories as $category) { ?>
+                <option value="<?php echo $category['category_id']; ?>"
+                    <?php if ($category['category_id'] == $product['category']) { echo 'selected'; } ?>>
+                    <?php echo $category['name']; ?>
+                </option>
+            <?php } ?>
+        </select><br>
         <label for="Price">Price:</label>
         <input type="text" id="Price" name="Price" value="<?php echo $product['price']; ?>" required><br>
         <label for="Details">Details:</label>
@@ -29,7 +39,6 @@ if (!$product) {
         <input type="file" accept="image/png, image/jpeg, image/jpg" name="product_image"><br>
         <button type="submit" name="submit">Update Product</button>
     </form>
-
 <?php
 }
 
