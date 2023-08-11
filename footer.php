@@ -44,3 +44,6 @@
                    </div>
             </div>
     </footer>
+    <p style="text-align: center; margin-top: -10px; background-color: #0c0d0d; color: white; padding: 10px;">
+    Copyright © 2022-2023 @EvolveElectronics All Rights Reserved.
+</p>
