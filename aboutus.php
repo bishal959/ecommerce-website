@@ -2,7 +2,7 @@
         include 'header.php';
 ?>
 <link rel="stylesheet" href="css/aboutus.css">
-<div>
+<div> 
 	<div class="about-us-section">
     <div class="about-us-image"><br><br><br><br><br>
       <img src="image/about.jpg" alt="About Us Image">
