@@ -13,7 +13,7 @@ include 'database.php';
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="top">
+    <div class="top" style="background-color: red;">
         Contact: +977-9853-1566-23
         <div style="float:right; padding-right: 20px;"> 
         mail:sumanvai46@gmail.com</div>

@@ -8,7 +8,6 @@ function getOrders($conn)
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
 
-// Get all orders from the database
 $orders = getOrders($conn);
 ?>
 <link rel="stylesheet" href="css/orders.css">

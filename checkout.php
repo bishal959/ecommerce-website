@@ -161,7 +161,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <select id="payment" name="payment" required>
                     <option value="" disabled selected>Select Payment Method</option>
                     <option value="Cash">Cash on Delivery</option>
-                    <option value="E-sewa" disabled>E-sewa(not available)</option>
+                    <option value="E-sewa unpaid" >E-sewa</option>
                 </select>
             </div>
             
@@ -342,15 +342,20 @@ if (isset($_GET['y']) && isset($_GET['t'])) {
                     <select id="payment" name="payment" required>
                         <option value="" disabled selected>Select Payment Method</option>
                         <option value="Cash">Cash on Delivery</option>
-                        <option value="E-sewa" disabled>E-sewa(not available)</option>
+                        <option value="E-sewa unpaid" >E-sewa</option>
+                        <body>
+                        
+                    </body> 
                     </select>
                 </div>
-                
-                <button type="submit" name="submit">Place Order</button>
+         
+                <button type="submit" name="submit">Place Orde</button>
                 
             </form>
-            
-        </div>
+            <div id="eSewaForm" style="">
+    
+</div>     
+    </div>
     </div>
     </body>
     

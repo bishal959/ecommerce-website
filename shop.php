@@ -37,7 +37,7 @@ if (isset($_GET['cart'])) {
                     <div>
                         <img src="uploaded_img/<?php echo $pele['product_image']; ?>" alt="monitor" class="pro"><hr>
                         <h4><?php echo $pele['product_name']; ?></h4>
-                        <p>Price: $<?php echo $pele['price']; ?></p>
+                        <p>Price: Rs.<?php echo $pele['price']; ?></p>
                         <?php if (isset($_SESSION['id']) && $_SESSION['loggedin']) { ?>
                             <button><a href="cart.php?cart=<?php echo $pele['product_id']; ?>">Add to Cart</a></button>
                         <?php } ?>
